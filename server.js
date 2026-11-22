@@ -205,26 +205,13 @@ function layout({ title, user, body, csrf, flash }) {
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#174f37">
-<meta name="description" content="Wakil Ahmed Marketplace seller portal. Sign in to manage your seller account or apply to become a marketplace seller.">
-<link rel="icon" type="image/jpeg" href="https://cdn.shopify.com/s/files/1/0905/1081/9694/files/wakil-ahmed-marketplace-logo.jpg?v=1795390556">
-<link rel="apple-touch-icon" href="https://cdn.shopify.com/s/files/1/0905/1081/9694/files/wakil-ahmed-marketplace-logo.jpg?v=1795390556">
-<title>Wakil Ahmed Marketplace | Seller Portal</title>
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Wakil Ahmed Marketplace">
-<meta property="og:title" content="Wakil Ahmed Marketplace | Seller Portal">
-<meta property="og:description" content="Sign in to your seller account or apply to join Wakil Ahmed Marketplace.">
-<meta property="og:url" content="https://seller.wakilahmed.com/login">
+<title>${esc(title)} · ${esc(BRAND)}</title>
 <meta property="og:image" content="https://cdn.shopify.com/s/files/1/0905/1081/9694/files/wakil-ahmed-marketplace-social.jpg?v=1795390551">
 <meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/0905/1081/9694/files/wakil-ahmed-marketplace-social.jpg?v=1795390551">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Wakil Ahmed Marketplace official logo">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Wakil Ahmed Marketplace | Seller Portal">
-<meta name="twitter:description" content="Sign in to your seller account or apply to join Wakil Ahmed Marketplace.">
-<meta name="twitter:image" content="https://cdn.shopify.com/s/files/1/0905/1081/9694/files/wakil-ahmed-marketplace-social.jpg?v=1795390551">
 <link rel="stylesheet" href="/static/style.css">
 </head><body>
 <header class="top"><div class="wrap bar">
