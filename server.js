@@ -807,6 +807,8 @@ app.use((req, res, next) => {
 });
 
 app.get("/healthz", (_req, res) => res.send("ok"));
+
+app.get("/googlef773f6d44fa4fd9f.html", (_req, res) => res.type("text/plain").send("google-site-verification: googlef773f6d44fa4fd9f.html"));
 app.use("/", __req("./auth"));
 app.use("/seller", __req("./seller"));
 app.use("/admin", __req("./admin"));
